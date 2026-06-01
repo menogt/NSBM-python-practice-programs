@@ -1,0 +1,6 @@
+r = float(input("Enter the Radius of the Circle :"))
+pi = float(22/7)
+perimeter = float(2*pi*r)
+print("Perimter is ", perimeter)
+area = float(pi*r*r)
+print("Area is ", area)
