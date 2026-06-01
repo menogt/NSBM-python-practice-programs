@@ -1,0 +1,8 @@
+room_charge = int(input("Enter the room charge per day: "))
+number_of_days = int(input("Enter the number of days stayed: ")) 
+food_charge = float(room_charge)
+service_percentage = float(input("Enter the service percentage: "))
+subtotal = float(room_charge*number_of_days)
+service_charge = float((subtotal*service_percentage)/100)
+final_bill = float(subtotal+service_charge)
+print(final_bill)
